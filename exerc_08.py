@@ -4,17 +4,17 @@ VALOR_EURO_EM_REAL = 5.34
 VALOR_LIBRA_EM_REAL = 6.27
 
 
-# Método para conversão de reais para dolares
+# Função para conversão de reais para dolares
 def coverter_para_dolares(valor_em_reais):
     valor_em_dolares = valor_em_reais / VALOR_DOLAR_EM_REAL 
     return round(valor_em_dolares,2)
 
-# Método para conversão de reais para euros
+# Função para conversão de reais para euros
 def coverter_para_euros(valor_em_reais):
     valor_em_euros = valor_em_reais / VALOR_EURO_EM_REAL  
     return round(valor_em_euros,2)
 
-# Método para conversão de reais para libras
+# Função para conversão de reais para libras
 def coverter_para_libras(valor_em_reais):
     valor_em_libras = valor_em_reais / VALOR_LIBRA_EM_REAL
     return round(valor_em_libras,2)
