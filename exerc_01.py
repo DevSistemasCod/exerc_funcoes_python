@@ -1,10 +1,10 @@
 
-# Método para calcular a Média de 3 Notas
+# Função para calcular a Média de 3 Notas
 def calcular_media(nota1, nota2, nota3):
     media = (nota1 + nota2 + nota3)/3
     return round(media,2)
 
-# Método Principal
+# Função Principal
 def main():
     print(" Informe as notas: ")
     nota1 = float(input("Informe a nota 1: "))
