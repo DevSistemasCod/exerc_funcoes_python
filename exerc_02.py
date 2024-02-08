@@ -1,4 +1,4 @@
-# Método para Verificar se um Número é Par
+# Função para Verificar se um Número é Par
 def verificar_se_par(numero):
     resto = numero % 2
 
@@ -10,7 +10,7 @@ def verificar_se_par(numero):
         mensagem = "O número é ímpar."
         return mensagem 
 
-# Método Principal
+# Função Principal
 def main():
     numero = float(input("Informe um número: "))
     saida = verificar_se_par(numero)
