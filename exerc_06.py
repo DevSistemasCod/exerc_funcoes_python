@@ -1,5 +1,4 @@
-
-
+# Contar a quantidade de digitos de um número 
 def contar_digitos(numero):
     qtd_digitos = len(str(numero))
     return qtd_digitos
