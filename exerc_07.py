@@ -1,15 +1,15 @@
 
-# Método para convernter temperatura celsius em kelvin
+# Função para convernter temperatura celsius em kelvin
 def conveter_para_kelvin(temperatura_celsius):
      temperatura_kelvin = temperatura_celsius + 273
      return temperatura_kelvin
 
-# Método para convernter temperatura celsius em fahrenheit
+# Função para convernter temperatura celsius em fahrenheit
 def conveter_para_fahrenheit(temperatura_celsius):
      temperatura_fahrenheit = ((1.8 * temperatura_celsius) + 32)
      return temperatura_fahrenheit
 
-# Método para escolha do usuário
+# Função menu para escolha do usuário
 def menu():
     temperatura_celsius = float(input("Informe a temperatura em Celsius: "))
     opcao = 0
