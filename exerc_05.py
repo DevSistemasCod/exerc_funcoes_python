@@ -1,5 +1,5 @@
 
-
+# Calcular a média de dois números
 def calcular_media(numero_alunos, quantidade_provas):
     total_notas = 0;
     media = 0
