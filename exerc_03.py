@@ -1,20 +1,20 @@
 
-# Método para realizar a soma de dois números
+# Função para realizar a soma de dois números
 def adicao(numero1,numero2):
     resultado = numero1 + numero2;
     return resultado
 
-# Método para realizar a subtracao de dois números
+# Função para realizar a subtracao de dois números
 def subtracao(numero1,numero2):
     resultado = numero1 - numero2;
     return resultado
 
-# Método para realizar a multiplicacao de dois números
+# Função para realizar a multiplicacao de dois números
 def multiplicacao(numero1,numero2):
     resultado = numero1 * numero2;
     return resultado
 
-# Método para realizar a divisão de dois números
+# Função para realizar a divisão de dois números
 def divisao(numero1,numero2):
     if(numero2 == 0):
         print("Não existe divisão por zero !!!")
@@ -22,10 +22,9 @@ def divisao(numero1,numero2):
         resultado = numero1/numero2
         print("Resultado da Divisão: ",resultado)
 
-#Menu de Opções
+# Função de Opções
 def menu():
-    opcao = 9
-
+    opcao = 0
     while((opcao != 1) and (opcao != 2) and (opcao != 3) and (opcao != 4)):
         print("\n == Entre com o número da Operação Desejada ==")
         print(" 1 - Adição ")
@@ -61,7 +60,7 @@ def menu():
         else:
             print("Essa entrada não é aceita !!! \n")
 
-# Método Principal
+# Função Principal
 def main():
     menu()
 
