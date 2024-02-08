@@ -1,5 +1,5 @@
 
-#Método para invernter uma string
+# Função para invernter uma string
 def inverter_string(palavra):
     string_invertida = ""
 
