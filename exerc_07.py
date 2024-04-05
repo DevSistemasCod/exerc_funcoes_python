@@ -28,9 +28,7 @@ def menu():
         else:
             print("\n Opção Inválida !!!")
 
-
-def main():
-    menu()
+    
 
 if __name__ == "__main__":
-    main()
+    menu()
