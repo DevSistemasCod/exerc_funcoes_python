@@ -43,9 +43,5 @@ def menu():
             print("Opção Inválida !!!")
 
 
-def main():
-    menu()
-
-
 if __name__ == ("__main__"):
-    main()
+    menu()
